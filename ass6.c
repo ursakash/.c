@@ -1,6 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    printf("\'teachers day'");
+    char ch;
+    printf("enter a character");
+    scanf("%c",&ch);
+    printf("ASCII is %d",ch);
     return 0;
 }

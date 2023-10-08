@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int a,s;
-    printf("enter a number");
-    scanf("%d",&a);
-    s=a*a;
-    printf("square of %d is %d",a,s);
+    char a,b,c;
+    printf("enter three character");
+    scanf("%c %c %c",&a,&b,&c);
+    printf("%c - %d\n",a,a);
+    printf("%c - %d",b,b);
+    printf("%c - %d",c,c);
     return 0;
 }

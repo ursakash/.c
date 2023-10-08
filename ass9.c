@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a,l,b;
-    printf("enter length and bredth of a rectange");
-    scanf("%d%d",&l,&b);
-    a=l*b;
-    printf("area is %d",a);
+    int d,m,y;
+    printf("enter date(d/m/y)");
+    scanf("%d/%d/%d",&d,&m,&y);
+    printf("%d/%d/%d",d,m,y);
     return 0;
 }
