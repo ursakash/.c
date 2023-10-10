@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    char x='A';
-    x++;
-    printf("%c",x);
+    int x;
+    char a;
+    double di;
+    float y;
+    printf("%d %c %lf %f",x,a,di,y);
     return 0;
+
 }

@@ -1,8 +1,7 @@
 #include<stdio.h>
-int main()
+int maion()
 {
-    int x;
-    x=sizeof(5.5);
-    printf("%d",x);
+    char x='+';
+    printf("enter a ASSCII CODE IS %c",x);
     return 0;
 }

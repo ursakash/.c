@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int x;
+    int x,s;
     printf("enter a number");
     scanf("%d",&x);
-    printf("number without lost digit is %d",x/10);
+    s=x*10+9;
+    printf("last digit is %d %d",x,s);
     return 0;
 }

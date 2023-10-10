@@ -1,12 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    printf("enter two number");
-    scanf("%d %d",&a,&b);
-    a=a+b;
-    b=a-b;
-    a=a-b;
-    printf("%d %d",a,b);
+    int x;
+    printf("enter three digit numbers");
+    scanf("%d",&x);
+    printf("%d",x%10*100+x/10);
     return 0;
 }

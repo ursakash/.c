@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int x;
+    int x,s;
     printf("enter a number");
     scanf("%d",&x);
-    printf("unit digit is %d",x%10);
+    s=x/10*10;
+    printf("lost digit of a number is %d %d",x,s);
     return 0;
+
 }
