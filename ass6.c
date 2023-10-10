@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int x;
-    printf("enter a number");
-    scanf("%d",&x);
-    if(x%7==0 || x%3==0)
-    printf("%d is divisible by 7||3",x);
-    else
-    printf("%d is not divisible by 7||3",x);
+    int i=1;
+    while(i<=10)
+    {
+     
+        printf("%d",i*2);
+        i++;
+    }
     return 0;
 }

@@ -1,15 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int x;
-    printf("enter a number");
-    scanf("%d",&x);
-    if(x>0)
-    printf("positive");
-    else if(x<0)
-
-    printf("negative");
-    else
-    printf("zero");
+    int i=10;
+    while(i>=1)
+    {
+        printf("%d",i*2);
+        i--;
+    }
     return 0;
 }

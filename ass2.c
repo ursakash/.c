@@ -1,19 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    float sp,cp,p,l;
-    printf("enter selling price and cost price");
-    scanf("%f %f",&sp,&cp);
-    if(sp-cp>=0)
+    int i=1;
+    while(i<=10)
     {
-        p=(sp-cp)/cp*100;
-        printf("%f",p);
-    }
-    else
-    {
-    l=(cp-sp)/cp*100;
-    printf("%f",l);
+        printf(" %d ",i);
+        i++;
     }
     return 0;
-
 }
