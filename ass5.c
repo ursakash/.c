@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    float cp,sp,profit;
-    printf("enter cost price and selling of 12 bananas");
-    scanf("%f%f",&cp,&sp);
-    profit=(sp-cp)*25/12;
-    printf("profit is %f",profit);
+    int x;
+    printf("enter a number");
+    scanf("%d",&x);
+    printf("number without lost digit is %d",x/10);
     return 0;
 }

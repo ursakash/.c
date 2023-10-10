@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int h,m;
-printf("enter time");
-scanf("%d/%d",&h,&m);
-printf("%d/%d",h,m);
-return 0;
+    int a,b;
+    printf("enter two number");
+    scanf("%d %d",&a,&b);
+    a=a+b-(b=a);
+    printf("%d %d",a,b);
+    return 0;
 }

@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    char ch;
-    printf("enter a character");
-    scanf("%c",&ch);
-    printf("ASCII is %d",ch);
+    int a,b,c;
+    printf("enter two number");
+    scanf("%d %d",&a,&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("%d %d",a,b);
     return 0;
 }

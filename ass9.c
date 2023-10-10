@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int d,m,y;
-    printf("enter date(d/m/y)");
-    scanf("%d/%d/%d",&d,&m,&y);
-    printf("%d/%d/%d",d,m,y);
+    int a,b;
+    printf("enter two number");
+    scanf("%d %d",&a,&b);
+    a=a^b;
+    b=a^b;
+    a=a^b;
+    printf("%d %d",a,b);
     return 0;
 }
