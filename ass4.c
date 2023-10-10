@@ -1,11 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int x,s;
+    int a;
     printf("enter a number");
-    scanf("%d",&x);
-    s=x/10*10;
-    printf("lost digit of a number is %d %d",x,s);
-    return 0;
+    scanf("%d",&a);
+    if(a/2)
+    {
+        printf("even number");
+    }
+    else
+    {
+        printf("odd number");
 
+
+    }
+    return 0;
+    
 }

@@ -1,10 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int x,s;
+    int a;
     printf("enter a number");
-    scanf("%d",&x);
-    s=x/100+x/10%10+x%10;
-    printf("sum of digit is %d",x);
+    scanf("%d",&a);
+    if(a>0)
+    {
+        printf("positive");
+    }
+    else
+    {
+        printf("non positive");
+    }
     return 0;
 }

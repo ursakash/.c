@@ -1,10 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int x,s;
+    int a;
     printf("enter a number");
-    scanf("%d",&x);
-    s=x*10+9;
-    printf("last digit is %d %d",x,s);
+    scanf("%d",&a);
+    if()
+    {
+        printf("even number");
+
+    }
+    else
+    {
+        printf("odd number");
+
+    }
     return 0;
+    
+    
 }

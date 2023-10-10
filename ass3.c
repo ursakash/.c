@@ -1,11 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int x;
-    char a;
-    double di;
-    float y;
-    printf("%d %c %lf %f",x,a,di,y);
+    int a;
+    printf("enter a number");
+    scanf("%d",&a);
+    if(a%2)
+    {
+        printf("odd number");
+    }
+    else
+    {
+        printf("even number");
+    
+    }
     return 0;
-
 }

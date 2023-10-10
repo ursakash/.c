@@ -1,9 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int x;
-    printf("enter three digit numbers");
-    scanf("%d",&x);
-    printf("%d",x%10*100+x/10);
+    int a,b;
+    printf("enter two number");
+    scanf("%d %d",&a,&b);
+    if(a>b)
+    {
+        printf("%d",a);
+    }
+    else
+    {
+        printf("%d",b);
+    }
     return 0;
 }
+a>b?printf("%d",a):printf("%d",b);
+printf("%d",a>b?a:b);

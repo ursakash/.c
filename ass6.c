@@ -1,10 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    float x,d;
-    printf("enter amount in INR:");
-    scanf("%f",&x);
-    d=x/84.23;
-    printf("USD%0.2f",d);
+    int x;
+    printf("enter a number");
+    scanf("%d",&x);
+    if(x>=100 && x<=999)
+    {
+        printf("three digit number");
+
+    }
+    else
+    {
+        printf("not three digit number");
+    }
     return 0;
 }
