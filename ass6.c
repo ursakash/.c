@@ -4,14 +4,9 @@ int main()
     int x;
     printf("enter a number");
     scanf("%d",&x);
-    if(x>=100 && x<=999)
-    {
-        printf("three digit number");
-
-    }
+    if(x%7==0 || x%3==0)
+    printf("%d is divisible by 7||3",x);
     else
-    {
-        printf("not three digit number");
-    }
+    printf("%d is not divisible by 7||3",x);
     return 0;
 }

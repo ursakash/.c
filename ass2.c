@@ -1,17 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    printf("enter a number");
-    scanf("%d",&a);
-    if(a%5==0)
+    float sp,cp,p,l;
+    printf("enter selling price and cost price");
+    scanf("%f %f",&sp,&cp);
+    if(sp-cp>=0)
     {
-        printf("divisible by 5");
+        p=(sp-cp)/cp*100;
+        printf("%f",p);
     }
     else
     {
-        printf("not divisible by 5");
-
+    l=(cp-sp)/cp*100;
+    printf("%f",l);
     }
     return 0;
+
 }

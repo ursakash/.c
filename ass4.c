@@ -1,19 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    printf("enter a number");
-    scanf("%d",&a);
-    if(a/2)
-    {
-        printf("even number");
-    }
+    char x;
+    printf("enter alphabet");
+    scanf("%c",&x);
+    if(x>='a'&&x<='z')
+    printf("lowercase alphabet");
+    else if(x>='A'&&x<='Z')
+    printf("uppercase alphabet");
     else
-    {
-        printf("odd number");
-
-
-    }
+    printf("not an alphabet");
     return 0;
-    
 }

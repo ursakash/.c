@@ -1,18 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    printf("enter two number");
-    scanf("%d %d",&a,&b);
-    if(a>b)
-    {
-        printf("%d",a);
-    }
+    int x;
+    printf("enter a number");
+    scanf("%d",&x);
+    if(x>0)
+    printf("positive");
+    else if(x<0)
+
+    printf("negative");
     else
-    {
-        printf("%d",b);
-    }
+    printf("zero");
     return 0;
 }
-a>b?printf("%d",a):printf("%d",b);
-printf("%d",a>b?a:b);

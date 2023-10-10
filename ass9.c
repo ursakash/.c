@@ -1,23 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int year;
-    printf("enter year number");
-    scanf("%d",&year);
-    if(year%100)
-    {
-        if(year%4)
-        printf("not leap year");
-        else
-        printf("leap year");
-
-    }
+    int a,b,c;
+    printf("enter length of the side of a triangle");
+    scanf("%d %d %d",&a,&b,&c);
+    if(a+b>c&&a+c>b&&b+c>a)
+    printf("valid triangle");
     else
-    {
-        if(year%400)
-        printf("not leap year");
-        else
-        printf("leap year");
-    }
+    printf("not a valid triangle");
     return 0;
 }

@@ -1,16 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int a;
     printf("enter a number");
-    scanf("%d",&a);
-    if(a>0)
-    {
-        printf("positive");
-    }
+    scanf("%d", &a);
+    if (a >= 100 && a <= 999)
+        printf("three digit number");
     else
-    {
-        printf("non positive");
-    }
+        printf("not three digit number");
     return 0;
 }
