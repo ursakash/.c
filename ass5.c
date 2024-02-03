@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
-{
-    int i=19;
-    while (i>=1)
     {
-        if(i%2)
-        printf("%d",i);
-        i--;
+        int n;
+        printf("enter a number");
+        scanf("%d",&n);
+        while(n)
+        {
+            printf(" %d ",n);
+            n--;
+        }
+        return 0;
+
     }
-    return 0;
-    
-}

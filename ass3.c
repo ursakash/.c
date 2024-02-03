@@ -1,12 +1,27 @@
 #include<stdio.h>
 int main()
 {
-    int i=10;
-    while (i>=1)
+    int n;
+    printf("enter a number");
+    scanf("%d",&n);
+    while(n)
     {
-        printf(" %d ",i);
-        i--;
+        printf("%d",n);
+        n--;
     }
     return 0;
-    
+}
+#include<stdio.h>
+int main()
+{
+    int i=1,n;
+    printf("enter a number");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        printf("%d",n+1-i);
+        i++;
+
+    }
+    return 0;
 }

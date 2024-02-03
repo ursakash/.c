@@ -1,12 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int i=1;
+    int i=1,n;
+    printf("enter a number");
+    scanf("%d",&n);
     while(i<=10)
     {
-        printf("5*%d=%d",i,5*i);
-        printf("\n");
-        i++;
+        printf("%d*%d=%d",n,i,n*i/n);
+                i++;
+
     }
     return 0;
 }

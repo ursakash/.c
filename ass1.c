@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int x=1;
-    while(x<=5)
+    int i,n;
+    printf("enter a number");
+    scanf("%d",&n);
+    while(i<=n)
     {
-        printf("my sir G");
+        printf("MySirG");
         printf("\n");
-        x++;
+        i++;
+
     }
     return 0;
 }
