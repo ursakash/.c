@@ -1,27 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int n;
-    printf("enter a number");
+    int i,s,n;
+  printf("enter a number");
     scanf("%d",&n);
-    while(n)
+    for(i=1,s=0;i<=n;i++)
     {
-        printf("%d",n);
-        n--;
+        s=s+2*i-1;
     }
-    return 0;
-}
-#include<stdio.h>
-int main()
-{
-    int i=1,n;
-    printf("enter a number");
-    scanf("%d",&n);
-    while(i<=n)
-    {
-        printf("%d",n+1-i);
-        i++;
-
-    }
+    printf("sum is %d",s);
     return 0;
 }

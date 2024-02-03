@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int i=1,n;
-    printf("enter a number");
-    scanf("%d",&n);
-    while(i<=n)
+    int l,a,b;
+    printf("enter two number");
+    scanf("%d%d",&a,&b);
+    for(l=a>b?a:b;l<=a*b;l++)
+    if(l%a==0&&l%b==0)
     {
-        printf("%d",i*i*i);
-        i++;
+printf("lcm is %d",l);
+break;
     }
-    return 0;
 }

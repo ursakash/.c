@@ -1,15 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int i,n;
+    int i,n,s;
     printf("enter a number");
     scanf("%d",&n);
-    while(i<=n)
+    for(i=1,s=0;i<=n;i++)
     {
-        printf("MySirG");
-        printf("\n");
-        i++;
-
+        s=s+i;
     }
+    printf("sum is %d",s);
     return 0;
 }

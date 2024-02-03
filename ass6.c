@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int i=1,n;
+    int i,p,n;
     printf("enter a number");
     scanf("%d",&n);
-    while(i<=n)
+    for(i=1,p=1;i<=n;i++)
     {
-        printf("%d",2*i);
-        i++;
+        p=p*i;
+
     }
+    printf("factorial is %d",p);
     return 0;
 }

@@ -1,16 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int i=1,n;
+    int i,s,n;
     printf("enter a number");
     scanf("%d",&n);
-    while(i<=n)
+    for(i=1,s=0;i<=n;i++)
     {
-        
-        
-            printf(" %d ",2*i-1);
-        
-        i++;
+        s=s+i*i;
+
     }
+    printf("sum is %d",s);
     return 0;
 }
